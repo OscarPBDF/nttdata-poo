@@ -34,7 +34,12 @@ namespace CalculatorProject.Loops
                 Name = "Juego",
                 Price = 39.99f
             };
-            products.Add(game);         
+            products.Add(game);
+
+            var shoes = new Product(4, "Zapatos", 20.99f);
+            products.Add(shoes);
+
+            System.Console.WriteLine(shoes.ToString());
         }
 
         public static List<Product> GetProductsGreaterThan30WithForEach() { 
