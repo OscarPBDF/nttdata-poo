@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CalculatorProject.InterfaceExample.Principal</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,8 +47,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
+    <Compile Include="Inheritance\Address.cs" />
+    <Compile Include="Inheritance\StudentSearch.cs" />
+    <Compile Include="Inheritance\NTTDataBase.cs" />
+    <Compile Include="Inheritance\Student.cs" />
+    <Compile Include="InterfaceExample\Ave.cs" />
+    <Compile Include="InterfaceExample\AvePropiedades.cs" />
+    <Compile Include="InterfaceExample\Camion.cs" />
+    <Compile Include="InterfaceExample\Coche.cs" />
+    <Compile Include="InterfaceExample\IAve.cs" />
+    <Compile Include="InterfaceExample\IVehiculo.cs" />
+    <Compile Include="InterfaceExample\Moto.cs" />
+    <Compile Include="InterfaceExample\Principal.cs" />
+    <Compile Include="InterfaceExample\Vehiculo.cs" />
     <Compile Include="Loops\PrintProduct.cs" />
     <Compile Include="Loops\Product.cs" />
+    <Compile Include="PlanDePensiones\CalculosFinancieros.cs" />
+    <Compile Include="PlanDePensiones\DatosFinancieros.cs" />
+    <Compile Include="PlanDePensiones\PedirDatos.cs" />
+    <Compile Include="PlanDePensiones\Program.cs" />
+    <Compile Include="Polymorphism\Circle.cs" />
+    <Compile Include="Polymorphism\Program.cs" />
+    <Compile Include="Polymorphism\Rectangle.cs" />
+    <Compile Include="Polymorphism\Shape.cs" />
+    <Compile Include="Polymorphism\Student.cs" />
+    <Compile Include="Polymorphism\Triangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

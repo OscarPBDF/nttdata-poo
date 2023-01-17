@@ -48,7 +48,9 @@
   </Choose>
   <ItemGroup>
     <Compile Include="CalculatorTests.cs" />
+    <Compile Include="Inheritance\StudentSearchTests.cs" />
     <Compile Include="Loops\PrintProductTests.cs" />
+    <Compile Include="PlanDePensiones\CalculosFinancierosTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
